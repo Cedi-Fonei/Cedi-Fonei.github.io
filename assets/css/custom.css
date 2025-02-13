@@ -1,13 +1,13 @@
 @font-face {
     font-family: KHMenu;
-    src: url(../fonts/KHMenu.otf) format("otf");
+    src: url(../fonts/KHMenu.otf) format("opentype");
     font-style: normal;
     font-display: block
 }
 
 @font-face {
     font-family: KHGummi;
-    src: url(../fonts/KHGummi.otf) format("otf");
+    src: url(../fonts/KHGummi.otf) format("opentype");
     font-style: normal;
     font-display: block
 }
@@ -15,9 +15,9 @@
 
 
 body {
-    max-width: 60%;
     text-align: center;
-    margin: 2rem 20%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 h1,h2,h3,h4,h5 {
